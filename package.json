@@ -1,0 +1,31 @@
+{
+    "name": "MOOC_node_mod6_quiz-server_entrega",
+    "author": "ging-moocs",
+    "license": "MIT",
+    "repository": "https://github.com/aalexx00/MOOC_node_mod6_quiz-server_entrega-master",
+    "version": "0.0.0",
+    "main": "main.js",
+    "scripts": {
+        "start": "node main.js",
+        "test": "mocha tests/test01.js"
+    },
+    "info": {
+        "githubURL": "aalexx00/MOOC_node_mod6_quiz-server_entrega-master.git",
+        "serverUrl": "https://autocorector.dit.upm.es/",
+        "courseId": "2",
+        "assignmentId": "11"
+    },
+    "dependencies": {
+        "chai": "^4.3.4",
+        "chai-http": "^4.3.0",
+        "express": "^4.0.0",
+        "fs-extra": "^6.0.1",
+        "method-override": "^3.0.0",
+        "sequelize": "^4.32.7",
+        "sqlite3": "^4.0.4"
+    },
+    "devDependencies": {
+        "mocha": "^8.3.2",
+        "zombie": "^6.1.4"
+    }
+}
